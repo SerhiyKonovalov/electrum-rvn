@@ -198,7 +198,7 @@ h6 {
   width: 100%;
   z-index: 10;
   padding-block: .9375rem;
-  background: rgba(255,255,255,.95);
+  background: #fff;
   box-shadow: 0 0 .625rem rgba(223,223,223,.5)
 }
 .header__container {
@@ -261,7 +261,7 @@ h6 {
   text-decoration: underline
 }
 .about-home {
-  padding-block: 10.625rem 4.375rem
+  padding-block: 10.625rem 6.25rem
 }
 .about-home__container {
   display: grid;
@@ -303,8 +303,54 @@ h6 {
   -webkit-transform: scale(1.04);
   transform: scale(1.04)
 }
+.advantages {
+  padding-block: 5rem 5.625rem;
+  background: #2e3e80
+}
+.advantages__container {
+  text-align: center
+}
+.advantages__title {
+  color: #fff;
+  margin-bottom: 2.8125rem
+}
+.advantages__text {
+  line-height: 1.55;
+  color: #dfdfdf
+}
+.advantages__items {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 2.5rem
+}
+.item-advantages {
+  border: .0625rem solid rgba(255,255,255,.3);
+  padding: 1.875rem 1.25rem;
+  transition: all .2s
+}
+.item-advantages:hover {
+  background: rgba(255,255,255,.07)
+}
+.item-advantages__icon {
+  width: 4.375rem;
+  margin-bottom: 1.25rem
+}
+.item-advantages__title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.4;
+  color: #fff
+}
+.item-advantages__title:not(:last-child) {
+  margin-bottom: .9375rem
+}
+.item-advantages__text {
+  font-size: 1.0625rem;
+  color: #dfdfdf;
+  line-height: 1.5
+}
 .community-home {
-  padding-block: 4.375rem 5.625rem
+  padding-block: 5.625rem
 }
 .community-home__container {
   display: grid;
@@ -359,54 +405,9 @@ h6 {
   -webkit-transform: scale(1.04);
   transform: scale(1.04)
 }
-.advantages {
-  padding-block: 5rem 5.625rem;
-  background: #2e3e80
-}
-.advantages__container {
-  text-align: center
-}
-.advantages__title {
-  color: #fff;
-  margin-bottom: 2.8125rem
-}
-.advantages__text {
-  line-height: 1.55;
-  color: #dfdfdf
-}
-.advantages__items {
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
-  gap: 2.5rem
-}
-.item-advantages {
-  border: .0625rem solid rgba(255,255,255,.3);
-  padding: 1.875rem 1.25rem;
-  transition: all .2s
-}
-.item-advantages:hover {
-  background: rgba(255,255,255,.07)
-}
-.item-advantages__icon {
-  width: 4.375rem;
-  margin-bottom: 1.25rem
-}
-.item-advantages__title {
-  font-size: 1.5rem;
-  font-weight: 500;
-  line-height: 1.4;
-  color: #fff
-}
-.item-advantages__title:not(:last-child) {
-  margin-bottom: .9375rem
-}
-.item-advantages__text {
-  font-size: 1.0625rem;
-  color: #dfdfdf;
-  line-height: 1.5
-}
 .cta {
-  padding-block: 5rem
+  background: #f1f1f1;
+  padding-block: 4.375rem
 }
 .cta__container {
   display: flex;
